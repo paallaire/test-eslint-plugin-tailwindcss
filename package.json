@@ -1,0 +1,24 @@
+{
+  "name": "test-eslint-plugin-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paallaire/test-eslint-plugin-tailwindcss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paallaire/test-eslint-plugin-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/paallaire/test-eslint-plugin-tailwindcss#readme",
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-plugin-tailwindcss": "^1.17.2",
+    "tailwindcss": "^3.0.1"
+  }
+}
