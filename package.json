@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint *.html"
+    "eslint": "eslint *.twig"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/paallaire/test-eslint-plugin-tailwindcss#readme",
   "devDependencies": {
     "eslint": "^8.4.1",
+    "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-tailwindcss": "^1.17.2",
     "tailwindcss": "^3.0.1"
   }
