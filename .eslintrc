@@ -1,21 +1,20 @@
 {
   "plugins": [
-    "tailwindcss",
-    "html"
+    "tailwindcss"
   ],
   "extends": [
     "plugin:tailwindcss/recommended"
   ],
-  "rules": {
-    "tailwindcss/classnames-order": "warn",
-    "tailwindcss/no-custom-classname": "warn",
-    "tailwindcss/no-contradicting-classname": "error"
-  },
   "overrides": [
     {
-      "files": ["a.js", "test.twig", "test.html"],
-      "rules": {
-        "tailwindcss/classnames-order": "error"
+      "files": ["test.html"],
+      "parser": "@angular-eslint/template-parser",
+      "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
       }
     }
   ]
